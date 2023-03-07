@@ -1,17 +1,19 @@
 import { useState } from 'react'
 import './App.css'
+import Header from './components/Header'
 
 
 const App = () => {
 
   const[index, setIndex] = useState(0);
+  
   const updateQuestionNum = () => {
       setIndex(Math.floor(Math.random() * (9 - 1 + 1)) + 1);
   }
 
   const[qa1,setQA1] = useState("Who is the father of Computer?");
   const[qa2,setQA2] = useState("Who is the first computer programmer?");
-  const[qa3,setQA3] = useState("When was first computer invented?");
+  const[qa3,setQA3] = useState("What is called the brain of Computer?");
   const[qa4,setQA4] = useState("Is Pendrive a storage device?");
   const[qa5,setQA5] = useState("How many bits make 1 byte?");
   const[qa6,setQA6] = useState("What is the full form of RAM?");
@@ -41,11 +43,11 @@ const App = () => {
   }
 
   const updateQA3 = () => {
-    if (qa3 == "When was first computer invented?"){
-      setQA3("1996, Mountain View, CA");
+    if (qa3 == "What is called the brain of Computer?"){
+      setQA3("CPU, Central Processing Unit");
     }
     else{
-      setQA3("When was first computer invented?");
+      setQA3("What is called the brain of Computer?");
     4
   }
 }
@@ -120,13 +122,9 @@ const App = () => {
   const arrBGColor = ["Green", "Yellow", "Red","Green", "Yellow", "Red","Green", "Yellow", "Yellow","Red"]
   return(
     <div className='wholebody'>
-      <div className='topic'>
-        <h1>Let's test your general knowledge in Computer!!!</h1>
-        <h2>How good your computer basic knowledge is? Test all of your computer knowledge here!</h2>
-        <h3>Number of cards: 10</h3>
-      </div>
+      <Header/>
 
-      <div className={arrBGColor[index]} onClick={arrupdateAnswer[index]}>
+      <div className= {arrBGColor[index]} onClick={arrupdateAnswer[index]}>
           <h1>{arrQuestion[index]}</h1>
       </div>
       <button className = 'button' onClick={updateQuestionNum}>➡️</button>

@@ -22,7 +22,7 @@
   justify-content: center;
   flex-wrap: wrap;
   box-shadow: 5px 1px 15px rgb(169, 236, 76);
-  background-color: rgba(125, 243, 241, 0.5);
+  cursor: pointer;
 }
 
 .button{
