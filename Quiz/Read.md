@@ -1,5 +1,5 @@
 
-# Web Development Project 3 - *Name of App Here*
+# Web Development Project 3 - *Quiz*
 
 Submitted by: **Sandesh Gnawali**
 
@@ -33,11 +33,11 @@ Here's a walkthrough of implemented user stories:
 
 <img src='# Web Development Project 3 - *Name of App Here*
 
-Submitted by: **Your Name Here**
+Submitted by: **Sandesh Gnawali**
 
-This web app: **insert description**
+This web app: **helps to test the basic knowledge of computer**
 
-Time spent: **X** hours spent in total
+Time spent: **12** hours spent in total
 
 ## Required Features
 
@@ -63,7 +63,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://www.loom.com/share/3ec098c5c75543c8a005c988b7eba523.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://www.loom.com/share/3ec098c5c75543c8a005c988b7eba523.gif' title='Video Walkthrough' width='100px' alt='Video Walkthrough' />
+
+1.2×
+30 sec⚡️37 sec30 sec25 sec20 sec17 sec15 sec12 sec
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
