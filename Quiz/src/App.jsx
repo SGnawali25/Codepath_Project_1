@@ -1,6 +1,6 @@
-import { useState } from 'react'
-import './App.css'
-import Header from './components/Header'
+import { useState } from 'react';
+import './App.css';
+import Header from './components/header';
 
 
 const App = () => {
@@ -123,7 +123,7 @@ const App = () => {
   return(
     <div className='wholebody'>
       <Header/>
-
+      
       <div className= {arrBGColor[index]} onClick={arrupdateAnswer[index]}>
           <h1>{arrQuestion[index]}</h1>
       </div>
