@@ -1,0 +1,77 @@
+{
+  "qa":[
+    {
+        "q":"Who is the father of Computer?",
+        "a" :"Charles Babbage",
+        "level":"easy",
+        "image":"./public/images/cbabbage.jpeg"
+    },
+
+    {
+        "q":"Who is the first computer programmer?",
+        "a" :"Lady Augusta Ada Lovelace",
+        "level":"medium",
+        "images":"./public/images/laal.jpeg"
+    },
+
+    {
+        "q":"What is called the brain of Computer?",
+        "a" :"CPU, Central Processing Unit",
+        "level":"hard",
+        "images":"./public/images/cpu.jpeg"
+    },
+
+    {
+        "q":"Is Pendrive a storage device?",
+        "a" :"Yes, It is.",
+        "level":"easy",
+        "images":"./public/images/pendrive.jpeg"
+        
+    },
+
+    {
+        "q":"How many bits make 1 byte?",
+        "a" :"8 bits",
+        "level":"medium",
+        "images":"./public/images/onebyte.jpeg"
+    },
+
+    {
+        "q":"What is the full form of RAM?",
+        "a" :"Random Access Memory",
+        "level":"hard",
+        "images":"./public/images/ram.jpeg"
+    },
+
+    {
+        "q":"Is Printer an example of output device?",
+        "a" :"Yes, Printer is an output device",
+        "level":"easy",
+        "images":"./public/images/printer.jpeg"  
+    },
+
+    {
+        "q":"Which electronic component was used in first generation of computer?",
+        "a" :"Vacuum Tubes",
+        "level":"medium",
+        "images":"./public/images/vacuumTubes.jpeg"
+    },
+
+    {
+        "q":"What is the full form of ROM?",
+        "a" :"Read Only Memory",
+        "level":"medium",
+        "images":"./public/images/rom.jpeg"
+    },
+
+    {
+        "q":"When was IBM Computer invented?",
+        "a" :"August 12, 1981",
+        "level":"hard",
+        "images":"./public/images/ibm.jpeg"
+    }
+
+
+        
+  ]
+}

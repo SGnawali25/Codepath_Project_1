@@ -1,0 +1,95 @@
+.question-image {
+    width: 7.5rem;
+}
+
+.question-box {
+    margin: auto;
+    padding: 1rem;
+    width: 40rem;
+    height: 20rem;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.correct-feedback {
+  color: green;
+  font-weight: bold;
+}
+
+.incorrect-feedback {
+  color: red;
+  font-weight: bold;
+}
+
+
+.guess-container{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.guess-input {
+    flex-basis: 75%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
+  
+  .guess-button {
+    background-color: #157ff7;
+    border: none;
+    color: white;
+    padding: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    flex-basis: 25%
+
+  }
+  
+  .guess-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  
+  .question-box.show-answer{
+    transform: rotateY(180deg);
+  }
+  
+  .answer-text{
+    transform: rotateY(180deg);
+}
+ .shuffle-button {
+    background-color: #96ef78; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove borders */
+    padding: 12px 24px; /* Some padding */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Change mouse pointer on hover */
+    border-radius: 5px; /* Add rounded corners */
+    margin-bottom: 1rem;
+  }
+
+.shuffle-button:hover{
+
+    background-color: #dceb86;
+}
+
+.streak{
+    color: rgb(247, 250, 247);
+    size: 2.5;
+}
+
+.streak-counter-container{
+    background-color: #4CAF50;
+    margin-left: 450px;
+    margin-right: 450px;
+    opacity: 0.9;
+    
+
+}
