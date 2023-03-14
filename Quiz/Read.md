@@ -1,4 +1,4 @@
-# Web Development Project 3 - *Name of App Here*
+# Web Development Project 3 - *Quizzer*
 
 Submitted by: **Sandesh Gnawali**
 
