@@ -2,7 +2,7 @@
 
 Submitted by: **Sandesh Gnawali**
 
-This web app: **Pulls the singer data from spotify api and gives the related info**
+This web app: **Pulls the singer data from Spotify API and gives the related info**
 
 Time spent: **15** hours spent in total
 
