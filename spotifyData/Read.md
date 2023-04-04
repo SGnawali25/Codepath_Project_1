@@ -10,19 +10,19 @@ Time spent: **20** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ X] **The app includes at least two unique chart developed using the fetched data that tell an interesting story**
-- [X ] **Clicking on an item in the list view displays more details about it**
-- [X ] **Clicking on an item has a direct, unique link to that item's detail view page**
+- [X] **The app includes at least two unique chart developed using the fetched data that tell an interesting story**
+- [X] **Clicking on an item in the list view displays more details about it**
+- [X] **Clicking on an item has a direct, unique link to that item's detail view page**
 
 
 The following **optional** features are implemented:
 
-- [X ] The site's customized dashboard contains more content that explains what is interesting about the data
-- [X ] The site allows users to toggle between different data visualizations
+- [X] The site's customized dashboard contains more content that explains what is interesting about the data
+- [X] The site allows users to toggle between different data visualizations
 
 The following **additional** features are implemented:
 
-* [X ] List anything else that you added to improve the site's functionality!
+* [X] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
@@ -30,7 +30,7 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://www.loom.com/share/86e1843650de4b37b51f730721c21d75.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
+<'https://www.loom.com/share/86e1843650de4b37b51f730721c21d75.gif'>
 GIF created with ...  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
