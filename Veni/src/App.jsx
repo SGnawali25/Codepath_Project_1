@@ -15,11 +15,14 @@ function App() {
   const [weight, setWeight] = useState(null);
   const [watched, setWatched] = useState([]);
   const [banProp, setBanProp] = useState({fullNames:[], weights:[], heights:[], lifeSpans:[]});
+  const [middleClass, setMiddleClass] = useState("heAwe")
 
   const banName = () =>{
     let currentNames = [...banProp.fullNames, name];
     setBanProp({...banProp, fullNames: currentNames});
   }
+
+  
 
   const banLifeSpan = () =>{
     let currentLifeSpans = [...banProp.lifeSpans, lifeSpan];
@@ -41,6 +44,7 @@ function App() {
     let first = "https://api.thedogapi.com/v1/images/search?api_key=q";
     let fullURL = first + ACCESS_KEY;
     reset(); 
+    console.log(fullURL);
     CallAPI(fullURL).catch(console.error);
   } 
   const reset = () => {
@@ -48,6 +52,8 @@ function App() {
     setLifeSpan(null);
     setHeight(null);
     setWeight(null);
+    setMiddleClass("heAwe")
+    
   }
 
   const isNotBanned = (newJson) => {
@@ -79,6 +85,7 @@ function App() {
       setHeight(newJson.breeds[0].height.metric);
       setWeight(newJson.breeds[0].weight.metric);
       setWatched((images) => [...images, newJson])
+      setMiddleClass(null)
     } else {
       CallAPI(query).catch(console.error);
     }
@@ -96,9 +103,9 @@ function App() {
           <br></br>
           <span onClick = {banLifeSpan}>{lifeSpan}</span>
           <br></br>
-          <span onClick = {banHeight}>{height} m</span>
+          <span onClick = {banHeight} className = {middleClass}>{height} m</span>
           <br></br>
-          <span onClick = {banWeight}>{weight} kg</span>
+          <span onClick = {banWeight}className = {middleClass}>{weight} kg</span>
         </div>
         <button onClick={makeQuery}>Find more!!!</button>
       </div>

@@ -128,3 +128,6 @@ img {
   /* text-transform: capitalize; */
 }
 
+.heAwe{
+  content-visibility: hidden;
+}
