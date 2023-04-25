@@ -62,7 +62,7 @@
   box-shadow: rgba(247, 242, 242, 0.1) 0px 4px 12px;
   margin: 1rem;
   color: black;
-  margin-left: 85rem;
+  margin-left: 75%;
 }
 
 .middle-panel {
@@ -73,7 +73,7 @@
   position: fixed;
   right: 0;
   padding: 0.5rem;
-  margin-right: 80rem;
+  margin-right: 70%;
   
 }
 
@@ -171,18 +171,6 @@ select {
 
 }
 
-.stat-card1 {
-  height: 80px;
-  width: 180px;
-  margin: 0.5rem 0.75rem;
-  background-color: rgba(62, 149, 12, 0.5);
-  padding:1.5rem;
-  box-shadow: rgba(17, 4, 18, 0.5) 2px 6px 12px;
-  border-radius: 10px;
-  font-weight: 600;
-  text-transform: capitalize;
-
-}
 
 
 .album-card{
@@ -326,6 +314,3 @@ select {
   color: var(--primary-font-color);
 }
 
-.cardLayoutFirst{
-  margin: auto;
-}
